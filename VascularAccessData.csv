@@ -1,0 +1,392 @@
+id,Gender,Age_years,AverageBloodFlow,HYPERTENSION,DIABETES,MALIGNANCY,PERIPHERAL_VASCULAR_DISEASE,HOPB,VALVULAR_HEART_DISEASE,CARDIOMYOPATHY,HYPOTHYREOSIS,HYPERTHREOSIS,STROKE,HEART_ATTACK,timeOnStudy,Achieved_VA,AchievedParticular_VA,totalTimeSpentOnTempCath_days,totalTimeSpentOnAVF_days,totalTimeSpentOnTunCath_days,nrTempCaths,nrAVFs,nrTunCaths
+1,M,56,NA,Yes,Yes,Yes,No,No,No,No,No,No,No,No,1886,"Permanent (AVF, Tunneled Catheter)",AVF,0,1886,0,0,1,0
+2,F,58,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,51,"Permanent (AVF, Tunneled Catheter)",AVF,13,38,0,1,1,0
+4,F,69,NA,Yes,Yes,No,No,Yes,No,No,No,No,No,No,152,"Permanent (AVF, Tunneled Catheter)",AVF,35,117,0,1,1,0
+5,M,48,NA,Yes,Yes,No,Yes,No,No,No,No,No,No,No,686,"Permanent (AVF, Tunneled Catheter)",AVF,69,617,0,1,1,0
+6,M,57,200,No,Yes,No,No,No,No,No,No,No,No,No,2818,"Permanent (AVF, Tunneled Catheter)",AVF,0,2818,0,0,1,0
+7,F,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7,Temporary Catheter,Temporary Catheter,7,0,0,1,0,0
+10,F,84,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,Temporary Catheter,Temporary Catheter,3,0,0,1,0,0
+11,M,34,300,No,No,No,No,No,No,No,No,No,No,No,31,"Permanent (AVF, Tunneled Catheter)",AVF,0,31,0,0,1,0
+14,M,62,NA,No,No,No,No,No,No,No,No,No,No,No,1421,"Permanent (AVF, Tunneled Catheter)",AVF,0,1079,342,0,1,2
+16,M,69,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1454,"Permanent (AVF, Tunneled Catheter)",AVF,30,1424,0,2,2,0
+17,F,52,200,Yes,No,No,No,No,No,No,No,No,Yes,No,3817,Temporary Catheter,Temporary Catheter,2527,36,1254,3,1,2
+18,M,45,NA,Yes,No,No,No,No,No,No,No,No,No,No,3058,"Permanent (AVF, Tunneled Catheter)",AVF,1198,1860,0,2,1,0
+19,M,55,NA,Yes,No,No,No,No,No,No,No,No,No,No,2220,"Permanent (AVF, Tunneled Catheter)",AVF,0,2220,0,0,1,0
+20,M,64,200,Yes,No,No,No,No,Yes,No,No,No,Yes,No,3387,"Permanent (AVF, Tunneled Catheter)",AVF,0,3387,0,0,1,0
+21,M,73,NA,No,No,No,No,No,Yes,No,No,No,No,No,3996,Temporary Catheter,Temporary Catheter,2478,0,1518,3,0,2
+24,M,35,350,Yes,No,No,No,No,No,No,No,No,No,No,3828,"Permanent (AVF, Tunneled Catheter)",AVF,0,3828,0,0,1,0
+25,M,73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,730,"Permanent (AVF, Tunneled Catheter)",AVF,28,702,0,1,1,0
+26,F,82,NA,No,No,No,No,No,No,No,No,No,No,No,728,Temporary Catheter,Temporary Catheter,728,0,0,3,0,0
+27,F,65,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,1113,"Permanent (AVF, Tunneled Catheter)",AVF,0,1113,0,0,1,0
+28,M,65,NA,No,Yes,No,No,No,No,No,No,No,No,No,661,"Permanent (AVF, Tunneled Catheter)",AVF,8,653,0,1,1,0
+29,M,56,NA,No,No,No,No,No,No,No,No,No,No,No,1826,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,342,0,1484,1,0,2
+30,F,76,NA,Yes,No,No,No,No,No,No,No,No,No,No,613,"Permanent (AVF, Tunneled Catheter)",AVF,143,470,0,1,1,0
+31,M,55,NA,No,Yes,No,Yes,No,No,No,No,No,No,No,815,"Permanent (AVF, Tunneled Catheter)",AVF,157,658,0,2,1,0
+32,F,75,NA,No,No,No,No,No,No,No,No,No,No,No,915,"Permanent (AVF, Tunneled Catheter)",AVF,39,876,0,1,1,0
+33,M,44,NA,No,No,No,No,No,No,No,No,No,No,No,1105,"Permanent (AVF, Tunneled Catheter)",AVF,40,1065,0,1,1,0
+35,M,73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,Temporary Catheter,Temporary Catheter,12,0,0,1,0,0
+36,F,49,300,No,No,No,No,No,No,No,No,No,No,No,7,Temporary Catheter,Temporary Catheter,7,0,0,1,0,0
+38,F,67,NA,No,No,No,No,No,No,No,No,No,No,No,3654,Temporary Catheter,Temporary Catheter,3654,0,0,1,0,0
+41,F,76,250,No,No,No,No,No,No,No,No,No,No,No,997,"Permanent (AVF, Tunneled Catheter)",AVF,421,576,0,1,1,0
+42,M,32,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,1330,"Permanent (AVF, Tunneled Catheter)",AVF,174,1156,0,1,1,0
+46,M,58,220,Yes,Yes,No,No,No,No,No,No,No,No,No,1439,"Permanent (AVF, Tunneled Catheter)",AVF,0,1439,0,0,1,0
+47,F,71,NA,Yes,No,No,No,No,No,No,No,No,No,No,858,"Permanent (AVF, Tunneled Catheter)",AVF,61,797,0,3,1,0
+48,M,54,300,Yes,Yes,No,No,No,No,No,No,No,No,No,1287,"Permanent (AVF, Tunneled Catheter)",AVF,0,1287,0,0,1,0
+49,F,70,NA,No,Yes,No,No,No,No,No,No,No,No,No,1536,Temporary Catheter,Temporary Catheter,1228,0,308,2,0,1
+50,M,30,300,Yes,No,No,No,No,No,No,No,No,No,No,2472,"Permanent (AVF, Tunneled Catheter)",AVF,0,2472,0,0,1,0
+51,M,83,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,198,Temporary Catheter,Temporary Catheter,198,0,0,1,0,0
+52,M,75,200,No,No,Yes,No,No,No,No,No,No,No,No,623,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,56,0,567,1,0,1
+53,F,77,NA,No,Yes,No,No,No,No,Yes,Yes,No,No,No,58,Temporary Catheter,Temporary Catheter,58,0,0,2,0,0
+64,M,69,300,No,No,Yes,No,No,No,No,No,No,No,Yes,3418,Temporary Catheter,Temporary Catheter,2006,1412,0,2,1,0
+65,F,67,NA,Yes,No,No,No,No,No,No,No,No,No,No,1112,"Permanent (AVF, Tunneled Catheter)",AVF,30,1082,0,1,1,0
+66,M,57,260,Yes,No,No,No,No,No,No,No,No,No,No,3650,"Permanent (AVF, Tunneled Catheter)",AVF,378,3272,0,1,2,0
+67,F,61,NA,No,No,No,No,No,No,No,No,No,No,No,2584,"Permanent (AVF, Tunneled Catheter)",AVF,4,2580,0,1,1,0
+68,M,73,NA,No,No,Yes,No,No,No,No,No,No,No,No,213,Temporary Catheter,Temporary Catheter,213,0,0,3,0,0
+69,F,40,NA,No,No,No,No,No,No,No,No,No,No,No,810,Temporary Catheter,Temporary Catheter,810,0,0,1,0,0
+70,M,70,NA,Yes,No,No,No,No,No,No,No,No,No,No,3359,"Permanent (AVF, Tunneled Catheter)",AVF,0,3359,0,0,1,0
+71,F,23,250,No,No,No,No,No,No,No,No,No,No,No,3454,Temporary Catheter,Temporary Catheter,2043,237,1174,3,1,2
+72,M,76,NA,No,No,Yes,Yes,No,No,No,No,No,No,No,282,Temporary Catheter,Temporary Catheter,282,0,0,2,0,0
+73,M,59,NA,No,Yes,No,Yes,No,No,No,No,No,No,No,1309,"Permanent (AVF, Tunneled Catheter)",AVF,6,1303,0,1,1,0
+74,M,11,300,Yes,No,No,No,No,No,No,No,No,No,No,3368,"Permanent (AVF, Tunneled Catheter)",AVF,0,3368,0,0,1,0
+75,M,74,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,650,Temporary Catheter,Temporary Catheter,624,26,0,1,1,0
+77,M,57,250,No,Yes,No,Yes,No,No,No,No,No,No,No,3143,Temporary Catheter,Temporary Catheter,1596,0,1547,3,0,3
+78,F,40,NA,No,No,No,No,No,No,Yes,No,No,No,No,1803,"Permanent (AVF, Tunneled Catheter)",AVF,0,1803,0,0,1,0
+79,F,47,NA,Yes,No,No,No,No,No,No,No,No,No,No,1676,"Permanent (AVF, Tunneled Catheter)",AVF,157,1519,0,1,1,0
+80,M,70,250,Yes,No,No,No,No,No,No,No,No,No,No,2991,"Permanent (AVF, Tunneled Catheter)",AVF,0,2991,0,0,1,0
+81,F,66,NA,Yes,Yes,No,No,No,No,Yes,No,No,No,No,675,"Permanent (AVF, Tunneled Catheter)",AVF,51,624,0,1,1,0
+82,F,56,NA,No,No,Yes,No,No,No,No,No,No,No,No,564,"Permanent (AVF, Tunneled Catheter)",AVF,68,496,0,1,1,0
+83,M,28,NA,Yes,No,No,No,No,Yes,No,No,No,No,No,2191,"Permanent (AVF, Tunneled Catheter)",AVF,38,2153,0,1,1,0
+84,F,79,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,384,Temporary Catheter,Temporary Catheter,384,0,0,3,0,0
+85,F,60,NA,Yes,No,No,No,No,No,No,No,No,Yes,No,2932,Temporary Catheter,Temporary Catheter,2932,0,0,1,0,0
+86,M,48,300,Yes,No,No,No,No,No,No,No,No,No,No,2677,"Permanent (AVF, Tunneled Catheter)",AVF,70,2607,0,1,1,0
+87,M,55,NA,No,No,No,No,No,No,No,No,No,No,No,2369,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,396,943,1030,3,2,2
+88,F,66,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,1761,"Permanent (AVF, Tunneled Catheter)",AVF,0,1761,0,0,1,0
+89,M,48,NA,No,No,Yes,No,No,No,No,No,No,No,No,133,"Permanent (AVF, Tunneled Catheter)",AVF,0,133,0,0,1,0
+90,M,42,NA,Yes,No,No,No,No,No,No,No,No,No,No,1879,Temporary Catheter,Temporary Catheter,1222,0,657,3,0,1
+91,M,68,NA,No,Yes,No,Yes,No,No,No,No,No,No,No,926,"Permanent (AVF, Tunneled Catheter)",AVF,20,906,0,1,1,0
+92,M,64,NA,Yes,No,Yes,No,No,No,No,No,No,Yes,No,190,Temporary Catheter,Temporary Catheter,190,0,0,2,0,0
+93,M,67,NA,Yes,Yes,No,No,No,No,No,No,No,No,Yes,144,Temporary Catheter,Temporary Catheter,144,0,0,3,0,0
+94,F,49,NA,Yes,No,No,Yes,No,No,No,No,No,No,Yes,432,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,36,0,396,2,0,2
+95,M,73,NA,No,No,No,No,No,No,No,No,No,Yes,No,1541,"Permanent (AVF, Tunneled Catheter)",AVF,0,1541,0,0,1,0
+97,M,76,NA,No,No,No,No,No,No,No,No,No,No,No,125,"Permanent (AVF, Tunneled Catheter)",AVF,0,125,0,0,1,0
+98,M,71,NA,No,No,No,No,No,No,No,No,No,No,Yes,217,"Permanent (AVF, Tunneled Catheter)",AVF,31,186,0,1,1,0
+100,M,41,NA,Yes,No,No,No,No,No,No,No,No,No,No,1947,"Permanent (AVF, Tunneled Catheter)",AVF,35,1912,0,1,1,0
+101,M,50,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,3510,"Permanent (AVF, Tunneled Catheter)",AVF,117,3393,0,1,1,0
+102,M,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27,Temporary Catheter,Temporary Catheter,27,0,0,1,0,0
+103,M,78,NA,No,No,No,No,No,No,No,No,No,No,No,433,"Permanent (AVF, Tunneled Catheter)",AVF,178,255,0,2,1,0
+104,F,64,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,2863,Temporary Catheter,Temporary Catheter,2863,0,0,1,0,0
+105,F,23,250,No,No,No,No,No,No,No,Yes,No,No,No,3579,Temporary Catheter,Temporary Catheter,3327,0,252,3,0,1
+107,F,59,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1950,"Permanent (AVF, Tunneled Catheter)",AVF,0,1950,0,0,1,0
+117,M,28,300,Yes,No,No,No,No,No,No,No,No,No,No,3031,"Permanent (AVF, Tunneled Catheter)",AVF,82,2949,0,1,1,0
+118,F,79,NA,No,Yes,No,No,No,No,No,No,No,No,No,258,"Permanent (AVF, Tunneled Catheter)",AVF,45,213,0,1,2,0
+120,M,52,NA,Yes,No,No,No,No,No,No,No,No,Yes,No,1278,"Permanent (AVF, Tunneled Catheter)",AVF,70,1208,0,1,1,0
+121,F,58,NA,No,Yes,No,No,No,Yes,Yes,Yes,No,No,No,146,Temporary Catheter,Temporary Catheter,146,0,0,2,0,0
+122,F,25,NA,Yes,No,No,No,No,No,No,No,No,No,No,668,"Permanent (AVF, Tunneled Catheter)",AVF,0,668,0,0,1,0
+123,F,49,NA,Yes,No,No,No,No,No,No,No,No,No,No,1092,Temporary Catheter,Temporary Catheter,1092,0,0,2,0,0
+124,M,76,NA,Yes,No,Yes,No,No,No,No,No,No,No,No,1613,"Permanent (AVF, Tunneled Catheter)",AVF,469,1144,0,1,1,0
+125,F,62,250,Yes,No,Yes,No,Yes,No,No,No,No,No,No,3227,Temporary Catheter,Temporary Catheter,2995,30,202,3,1,1
+126,M,42,300,No,No,No,No,No,No,No,No,No,No,No,1986,"Permanent (AVF, Tunneled Catheter)",AVF,698,1288,0,3,1,0
+127,M,66,NA,No,Yes,No,No,No,No,No,No,No,No,No,149,"Permanent (AVF, Tunneled Catheter)",AVF,0,149,0,0,1,0
+128,F,50,250,Yes,No,No,No,No,No,No,No,No,No,No,3227,"Permanent (AVF, Tunneled Catheter)",AVF,366,2861,0,3,2,0
+129,F,71,NA,Yes,Yes,No,No,No,Yes,No,No,Yes,No,No,1279,Temporary Catheter,Temporary Catheter,1279,0,0,1,0,0
+130,F,84,NA,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,555,Temporary Catheter,Temporary Catheter,555,0,0,3,0,0
+131,M,52,NA,Yes,No,No,No,No,No,Yes,No,No,No,No,245,Temporary Catheter,Temporary Catheter,132,113,0,1,1,0
+133,M,76,NA,Yes,No,Yes,No,No,No,No,No,No,No,No,999,Temporary Catheter,Temporary Catheter,596,403,0,1,1,0
+135,F,46,300,No,No,No,No,No,Yes,No,No,No,No,No,2658,"Permanent (AVF, Tunneled Catheter)",AVF,0,2658,0,0,1,0
+136,F,76,NA,Yes,No,No,No,No,No,Yes,No,No,No,No,1364,"Permanent (AVF, Tunneled Catheter)",AVF,80,1284,0,1,1,0
+138,M,38,NA,Yes,No,No,No,No,No,No,No,No,No,No,2451,"Permanent (AVF, Tunneled Catheter)",AVF,25,2426,0,1,1,0
+139,M,48,NA,Yes,Yes,No,Yes,Yes,No,No,No,No,No,Yes,143,"Permanent (AVF, Tunneled Catheter)",AVF,0,143,0,0,1,0
+140,M,80,NA,No,No,Yes,No,No,No,Yes,No,No,No,No,462,"Permanent (AVF, Tunneled Catheter)",AVF,125,337,0,1,1,0
+141,M,13,NA,No,No,No,No,No,No,No,Yes,No,No,No,1312,"Permanent (AVF, Tunneled Catheter)",AVF,300,1012,0,3,1,0
+143,M,48,NA,Yes,No,No,No,No,No,No,No,No,No,Yes,1843,"Permanent (AVF, Tunneled Catheter)",AVF,0,1843,0,0,1,0
+144,M,57,NA,No,No,Yes,No,No,No,No,No,No,No,No,67,Temporary Catheter,Temporary Catheter,67,0,0,2,0,0
+147,M,62,320,Yes,No,No,No,No,No,No,No,No,No,Yes,3054,Temporary Catheter,Temporary Catheter,3054,0,0,1,0,0
+152,M,59,320,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2977,"Permanent (AVF, Tunneled Catheter)",AVF,95,2882,0,1,1,0
+158,F,70,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,392,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,71,0,321,2,0,1
+159,M,28,NA,Yes,No,No,No,No,No,No,No,No,No,No,1096,"Permanent (AVF, Tunneled Catheter)",AVF,15,1081,0,1,1,0
+160,M,79,NA,No,No,No,No,No,No,No,No,No,No,Yes,713,Temporary Catheter,Temporary Catheter,713,0,0,2,0,0
+161,M,76,NA,No,No,No,No,No,No,No,No,No,No,No,659,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,250,0,409,1,0,1
+162,M,48,NA,No,No,No,Yes,No,No,No,No,No,No,No,653,"Permanent (AVF, Tunneled Catheter)",AVF,102,357,194,2,1,1
+164,M,51,300,Yes,No,No,No,Yes,No,No,No,No,No,No,2882,"Permanent (AVF, Tunneled Catheter)",AVF,51,2831,0,1,1,0
+165,M,53,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,720,"Permanent (AVF, Tunneled Catheter)",AVF,71,649,0,1,1,0
+166,F,85,NA,No,No,No,No,No,No,No,No,No,No,No,973,"Permanent (AVF, Tunneled Catheter)",AVF,0,973,0,0,1,0
+167,F,44,300,Yes,No,No,No,No,No,No,Yes,No,No,No,2758,"Permanent (AVF, Tunneled Catheter)",AVF,0,2758,0,0,1,0
+168,M,25,NA,No,No,No,No,No,Yes,No,Yes,No,Yes,No,764,Temporary Catheter,Temporary Catheter,764,0,0,1,0,0
+169,M,66,300,Yes,No,No,No,No,No,No,No,No,No,Yes,2561,"Permanent (AVF, Tunneled Catheter)",AVF,391,2170,0,2,1,0
+170,F,52,NA,No,No,Yes,No,No,No,No,No,No,No,No,1618,"Permanent (AVF, Tunneled Catheter)",AVF,0,1618,0,0,1,0
+171,M,49,NA,Yes,No,No,No,No,No,No,No,No,No,No,838,Temporary Catheter,Temporary Catheter,838,0,0,1,0,0
+172,M,78,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,1088,"Permanent (AVF, Tunneled Catheter)",AVF,17,1071,0,1,2,0
+173,M,45,NA,Yes,No,No,No,No,No,No,No,No,No,No,1536,"Permanent (AVF, Tunneled Catheter)",AVF,57,1479,0,1,1,0
+174,M,66,NA,Yes,No,No,No,No,No,No,No,No,No,No,2025,"Permanent (AVF, Tunneled Catheter)",AVF,982,1043,0,2,1,0
+175,M,82,NA,Yes,No,No,No,No,No,No,No,No,Yes,Yes,186,"Permanent (AVF, Tunneled Catheter)",AVF,0,186,0,0,1,0
+176,F,79,NA,Yes,No,No,No,No,No,No,No,No,No,No,1010,"Permanent (AVF, Tunneled Catheter)",AVF,504,506,0,3,1,0
+177,F,72,250,No,Yes,No,No,No,No,No,Yes,No,No,No,426,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,0,18,408,0,1,2
+178,M,69,NA,Yes,Yes,No,No,No,No,Yes,No,No,Yes,Yes,669,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,84,0,585,2,0,1
+179,M,77,NA,No,No,Yes,No,Yes,Yes,Yes,No,No,No,No,1117,"Permanent (AVF, Tunneled Catheter)",AVF,319,798,0,1,1,0
+180,M,72,NA,No,Yes,No,No,No,No,Yes,No,No,No,Yes,197,Temporary Catheter,Temporary Catheter,99,0,98,1,0,1
+181,F,52,200,Yes,No,No,No,No,No,No,No,No,No,No,3,Temporary Catheter,Temporary Catheter,3,0,0,1,0,0
+182,F,75,250,Yes,No,No,No,No,No,No,No,No,No,No,2631,Temporary Catheter,Temporary Catheter,1820,811,0,3,1,0
+183,M,43,NA,Yes,Yes,No,No,No,No,No,No,No,Yes,No,221,Temporary Catheter,Temporary Catheter,127,94,0,2,1,0
+184,F,65,NA,No,Yes,No,No,No,No,No,No,No,No,No,143,Temporary Catheter,Temporary Catheter,143,0,0,2,0,0
+185,M,64,NA,Yes,Yes,No,Yes,No,No,No,No,No,No,No,1013,"Permanent (AVF, Tunneled Catheter)",AVF,61,952,0,1,1,0
+186,M,56,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,493,"Permanent (AVF, Tunneled Catheter)",AVF,0,493,0,0,1,0
+189,M,52,NA,Yes,No,No,No,No,No,No,No,No,No,No,606,"Permanent (AVF, Tunneled Catheter)",AVF,84,522,0,1,1,0
+191,F,59,320,Yes,No,No,No,No,No,No,No,No,No,No,2691,"Permanent (AVF, Tunneled Catheter)",AVF,0,2691,0,0,1,0
+196,M,43,360,Yes,No,No,No,No,No,No,No,No,No,No,2608,"Permanent (AVF, Tunneled Catheter)",AVF,33,2575,0,1,1,0
+202,F,67,300,No,No,No,No,NA,No,No,No,No,No,No,1607,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,708,0,899,2,0,1
+204,M,74,NA,Yes,No,No,No,NA,No,No,No,No,No,No,1253,"Permanent (AVF, Tunneled Catheter)",AVF,14,1239,0,1,1,0
+205,M,76,300,Yes,No,No,No,NA,No,No,No,No,No,No,1678,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,344,0,1334,2,0,1
+206,F,59,NA,No,No,No,No,NA,No,No,No,No,No,No,553,"Permanent (AVF, Tunneled Catheter)",AVF,0,553,0,0,1,0
+207,F,76,250,No,No,No,No,NA,Yes,No,No,No,No,No,573,Temporary Catheter,Temporary Catheter,462,111,0,3,1,0
+208,F,50,300,Yes,Yes,No,No,NA,No,No,No,No,No,No,865,"Permanent (AVF, Tunneled Catheter)",AVF,29,836,0,1,1,0
+209,F,62,300,Yes,No,No,No,NA,Yes,No,Yes,No,No,No,2157,"Permanent (AVF, Tunneled Catheter)",AVF,0,2157,0,0,1,0
+210,F,78,NA,No,No,No,No,NA,No,No,No,No,Yes,No,196,Temporary Catheter,Temporary Catheter,196,0,0,3,0,0
+211,M,39,250,Yes,No,No,No,NA,Yes,No,No,No,No,No,1534,"Permanent (AVF, Tunneled Catheter)",AVF,170,1364,0,1,1,0
+212,F,28,300,Yes,Yes,Yes,No,NA,No,No,No,No,No,No,1866,Temporary Catheter,Temporary Catheter,1074,0,792,3,0,1
+213,M,58,NA,Yes,Yes,No,Yes,NA,No,Yes,No,No,No,No,1702,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,503,0,1199,3,0,1
+214,F,57,300,Yes,No,No,No,NA,No,No,Yes,No,No,No,2350,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,447,0,1903,3,0,2
+215,F,NA,260,No,Yes,No,No,NA,No,No,Yes,No,Yes,No,761,"Permanent (AVF, Tunneled Catheter)",AVF,20,741,0,1,1,0
+216,F,83,NA,Yes,No,No,No,NA,No,Yes,No,No,Yes,No,361,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,140,0,221,3,0,1
+217,F,53,300,No,No,No,No,NA,No,No,No,No,No,No,2769,"Permanent (AVF, Tunneled Catheter)",AVF,1,2768,0,1,2,0
+218,F,69,NA,No,No,No,No,NA,No,No,No,No,No,No,2327,Temporary Catheter,Temporary Catheter,1900,0,427,3,0,1
+219,M,75,300,No,No,No,Yes,NA,No,No,No,No,No,No,1835,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,69,0,1766,1,0,1
+220,M,52,NA,Yes,No,No,No,NA,No,Yes,No,No,No,Yes,368,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,133,0,235,2,0,1
+221,M,80,NA,No,No,No,No,NA,No,No,No,No,Yes,No,259,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,20,0,239,3,0,2
+222,M,50,350,Yes,Yes,No,No,NA,No,No,No,No,No,No,2413,"Permanent (AVF, Tunneled Catheter)",AVF,0,2413,0,0,1,0
+223,M,71,NA,Yes,Yes,No,No,NA,No,No,No,No,No,No,417,"Permanent (AVF, Tunneled Catheter)",AVF,46,371,0,1,1,0
+224,M,51,NA,Yes,Yes,No,No,NA,No,No,No,No,No,No,427,"Permanent (AVF, Tunneled Catheter)",AVF,0,427,0,0,1,0
+225,F,42,300,Yes,No,No,No,NA,Yes,No,No,No,No,No,2279,"Permanent (AVF, Tunneled Catheter)",AVF,74,2205,0,1,1,0
+226,M,72,NA,Yes,Yes,No,No,NA,No,No,No,No,No,No,519,"Permanent (AVF, Tunneled Catheter)",AVF,99,420,0,1,1,0
+227,M,61,300,Yes,Yes,No,Yes,NA,No,No,No,No,No,No,2007,"Permanent (AVF, Tunneled Catheter)",AVF,370,1637,0,3,1,0
+228,M,34,300,Yes,No,No,No,NA,No,No,No,No,No,No,2183,"Permanent (AVF, Tunneled Catheter)",AVF,0,2183,0,0,1,0
+229,F,72,NA,Yes,No,No,No,NA,No,No,No,No,No,No,678,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,112,0,566,1,0,1
+230,F,73,NA,No,Yes,No,No,NA,No,No,No,No,No,No,1123,Temporary Catheter,Temporary Catheter,1123,0,0,1,0,0
+231,M,68,NA,No,Yes,No,No,NA,No,No,No,No,No,No,954,"Permanent (AVF, Tunneled Catheter)",AVF,38,916,0,1,1,0
+232,M,58,260,Yes,No,No,Yes,NA,No,Yes,No,No,Yes,No,579,"Permanent (AVF, Tunneled Catheter)",AVF,54,525,0,1,1,0
+243,M,78,300,Yes,No,Yes,No,Yes,No,No,No,No,No,No,1905,"Permanent (AVF, Tunneled Catheter)",AVF,0,1905,0,0,1,0
+244,F,79,NA,No,Yes,No,No,No,No,No,No,No,Yes,No,62,Temporary Catheter,Temporary Catheter,62,0,0,1,0,0
+245,M,59,250,Yes,No,Yes,No,No,No,No,No,No,No,No,1870,Temporary Catheter,Temporary Catheter,1870,0,0,2,0,0
+246,F,72,NA,Yes,No,No,No,No,No,No,No,No,No,No,1922,"Permanent (AVF, Tunneled Catheter)",AVF,424,1356,142,3,2,1
+247,M,72,300,Yes,Yes,No,No,No,No,No,Yes,No,No,Yes,1908,Temporary Catheter,Temporary Catheter,1886,22,0,2,1,0
+248,F,74,NA,Yes,No,No,No,No,No,No,No,No,No,No,2125,"Permanent (AVF, Tunneled Catheter)",AVF,0,2125,0,0,1,0
+250,M,50,280,Yes,Yes,No,No,No,No,No,Yes,No,No,No,2204,"Permanent (AVF, Tunneled Catheter)",AVF,0,2204,0,0,1,0
+251,M,87,NA,Yes,No,Yes,No,No,No,No,No,No,No,No,478,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,43,0,435,2,0,1
+252,M,57,300,Yes,Yes,No,No,No,No,No,No,No,No,No,1935,Temporary Catheter,Temporary Catheter,1935,0,0,3,0,0
+254,M,67,280,No,No,No,Yes,No,No,No,No,No,No,No,2139,"Permanent (AVF, Tunneled Catheter)",AVF,39,2100,0,2,1,0
+256,F,61,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1573,Temporary Catheter,Temporary Catheter,924,0,649,3,0,2
+257,F,78,NA,No,No,Yes,No,No,No,No,No,No,No,No,253,Temporary Catheter,Temporary Catheter,253,0,0,1,0,0
+258,M,80,NA,Yes,No,No,No,Yes,No,No,No,No,No,No,872,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,125,0,747,1,0,1
+259,F,56,NA,No,No,Yes,Yes,No,No,No,No,No,No,No,540,"Permanent (AVF, Tunneled Catheter)",AVF,258,282,0,1,1,0
+260,F,66,280,Yes,No,No,Yes,No,No,No,No,No,No,No,642,"Permanent (AVF, Tunneled Catheter)",AVF,48,594,0,1,1,0
+261,M,78,250,Yes,No,No,No,No,No,No,No,No,No,No,1456,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,0,0,1456,0,0,1
+262,M,57,300,Yes,No,No,No,No,No,No,No,No,No,No,2029,"Permanent (AVF, Tunneled Catheter)",AVF,0,2029,0,0,1,0
+263,M,83,250,Yes,No,No,No,No,No,No,No,No,No,No,2110,"Permanent (AVF, Tunneled Catheter)",AVF,0,2110,0,0,1,0
+264,F,74,200,Yes,No,No,No,No,No,No,No,No,No,Yes,1826,Temporary Catheter,Temporary Catheter,1548,0,278,2,0,1
+265,M,53,NA,Yes,No,No,Yes,No,Yes,Yes,No,No,No,No,927,"Permanent (AVF, Tunneled Catheter)",AVF,0,927,0,0,1,0
+266,M,76,NA,No,No,No,No,Yes,No,No,No,No,No,No,146,Temporary Catheter,Temporary Catheter,146,0,0,3,0,0
+267,F,79,200,No,Yes,No,No,No,No,No,Yes,No,Yes,No,840,"Permanent (AVF, Tunneled Catheter)",AVF,205,635,0,3,1,0
+268,F,63,300,Yes,No,No,No,No,No,No,No,No,No,No,1956,"Permanent (AVF, Tunneled Catheter)",AVF,25,1931,0,2,1,0
+269,F,61,NA,Yes,No,No,No,No,No,No,No,No,No,No,505,Temporary Catheter,Temporary Catheter,492,13,0,1,1,0
+270,F,82,NA,Yes,No,Yes,No,No,No,No,Yes,No,No,No,440,Temporary Catheter,Temporary Catheter,440,0,0,1,0,0
+271,M,61,320,Yes,No,No,No,No,No,No,Yes,No,Yes,No,1870,"Permanent (AVF, Tunneled Catheter)",AVF,63,1807,0,3,1,0
+272,M,52,300,Yes,No,No,No,No,No,Yes,No,No,No,Yes,1481,"Permanent (AVF, Tunneled Catheter)",AVF,51,1430,0,1,1,0
+273,F,74,NA,Yes,No,No,No,No,No,No,No,No,Yes,No,1837,Temporary Catheter,Temporary Catheter,923,780,134,2,1,1
+274,M,66,NA,Yes,Yes,No,No,No,No,No,No,No,Yes,No,392,Temporary Catheter,Temporary Catheter,296,96,0,3,2,0
+275,M,82,270,No,Yes,No,Yes,No,No,No,No,No,No,No,371,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,19,0,352,1,0,1
+276,F,79,NA,Yes,No,No,Yes,No,No,Yes,No,No,Yes,Yes,125,Temporary Catheter,Temporary Catheter,125,0,0,3,0,0
+277,M,56,300,Yes,No,No,No,No,No,No,No,No,No,No,2159,"Permanent (AVF, Tunneled Catheter)",AVF,0,2159,0,0,1,0
+278,M,80,250,No,Yes,No,No,No,No,No,No,No,No,Yes,1312,"Permanent (AVF, Tunneled Catheter)",AVF,0,1312,0,0,1,0
+279,M,62,220,Yes,No,No,No,No,No,No,No,No,No,No,960,"Permanent (AVF, Tunneled Catheter)",AVF,0,960,0,0,1,0
+280,F,78,NA,Yes,No,No,Yes,Yes,No,No,No,No,No,No,185,"Permanent (AVF, Tunneled Catheter)",AVF,54,131,0,1,1,0
+281,M,53,NA,No,No,No,No,No,No,No,No,No,No,No,1941,"Permanent (AVF, Tunneled Catheter)",AVF,0,1941,0,0,1,0
+282,M,51,300,Yes,No,No,No,No,No,No,No,No,No,No,1734,"Permanent (AVF, Tunneled Catheter)",AVF,0,1734,0,0,1,0
+283,F,41,300,Yes,No,No,No,No,No,No,No,No,No,No,1843,"Permanent (AVF, Tunneled Catheter)",AVF,0,1843,0,0,1,0
+284,F,63,NA,No,Yes,No,No,No,No,No,No,No,No,No,379,"Permanent (AVF, Tunneled Catheter)",AVF,0,379,0,0,1,0
+287,M,32,270,Yes,No,No,No,No,No,No,No,No,No,No,1955,"Permanent (AVF, Tunneled Catheter)",AVF,38,1917,0,2,1,0
+291,F,77,NA,No,Yes,No,No,No,No,No,No,No,No,Yes,518,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,85,0,433,2,0,1
+292,M,84,220,No,No,No,No,No,No,No,No,No,No,No,573,"Permanent (AVF, Tunneled Catheter)",AVF,0,573,0,0,1,0
+293,F,62,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,1123,"Permanent (AVF, Tunneled Catheter)",AVF,0,1123,0,0,1,0
+294,F,74,270,No,Yes,No,Yes,No,Yes,No,No,No,No,No,1705,"Permanent (AVF, Tunneled Catheter)",AVF,64,1641,0,1,1,0
+295,M,58,NA,No,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,124,"Permanent (AVF, Tunneled Catheter)",AVF,12,112,0,2,1,0
+296,F,72,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,644,"Permanent (AVF, Tunneled Catheter)",AVF,58,586,0,1,1,0
+297,M,72,300,Yes,No,No,No,No,No,Yes,No,No,No,No,1622,"Permanent (AVF, Tunneled Catheter)",AVF,691,931,0,3,2,0
+298,M,67,250,Yes,No,No,Yes,No,Yes,No,Yes,No,No,No,1474,"Permanent (AVF, Tunneled Catheter)",AVF,0,1474,0,0,1,0
+299,M,39,300,No,No,No,No,No,No,No,No,No,No,No,1071,"Permanent (AVF, Tunneled Catheter)",AVF,269,802,0,1,1,0
+300,F,65,300,Yes,No,No,No,No,No,No,No,No,No,No,1797,"Permanent (AVF, Tunneled Catheter)",AVF,40,1757,0,2,1,0
+301,F,75,300,No,No,No,No,No,No,No,No,No,No,No,1723,"Permanent (AVF, Tunneled Catheter)",AVF,0,1723,0,0,1,0
+302,F,74,NA,Yes,Yes,No,No,No,No,Yes,No,No,No,Yes,210,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,8,0,202,1,0,1
+303,F,56,300,Yes,No,No,No,No,No,Yes,No,No,No,No,1702,"Permanent (AVF, Tunneled Catheter)",AVF,13,1689,0,1,2,0
+304,F,72,250,No,Yes,No,No,No,No,No,No,No,No,No,934,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,111,0,823,1,0,1
+305,M,76,280,Yes,Yes,No,Yes,No,No,No,No,No,No,No,1466,"Permanent (AVF, Tunneled Catheter)",AVF,38,1428,0,1,1,0
+306,F,77,NA,Yes,Yes,No,Yes,No,No,Yes,No,No,No,Yes,66,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,6,0,60,1,0,1
+307,F,55,300,Yes,Yes,No,No,No,No,No,No,No,No,No,1704,"Permanent (AVF, Tunneled Catheter)",AVF,0,1704,0,0,1,0
+309,M,77,NA,Yes,No,Yes,No,No,No,No,No,No,No,No,380,Temporary Catheter,Temporary Catheter,380,0,0,1,0,0
+310,M,47,300,Yes,No,No,No,No,No,No,No,No,No,No,1680,"Permanent (AVF, Tunneled Catheter)",AVF,28,1652,0,1,1,0
+312,M,69,350,Yes,No,No,No,No,No,No,No,No,No,No,1603,"Permanent (AVF, Tunneled Catheter)",AVF,0,1603,0,0,1,0
+313,M,61,350,Yes,Yes,No,No,No,No,No,No,No,Yes,No,1531,"Permanent (AVF, Tunneled Catheter)",AVF,0,1531,0,0,1,0
+314,F,54,300,Yes,Yes,No,No,No,No,No,No,No,No,No,1718,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,41,549,1128,3,1,3
+315,M,74,NA,No,No,Yes,No,No,No,No,No,No,No,No,1715,"Permanent (AVF, Tunneled Catheter)",AVF,0,1715,0,0,1,0
+316,M,59,270,Yes,No,No,No,No,No,No,No,No,No,No,1715,"Permanent (AVF, Tunneled Catheter)",AVF,0,1715,0,0,1,0
+317,F,75,250,Yes,Yes,No,No,No,No,No,No,No,Yes,No,1117,Temporary Catheter,Temporary Catheter,1065,52,0,1,1,0
+318,F,58,280,Yes,Yes,Yes,No,No,No,No,No,No,No,No,384,"Permanent (AVF, Tunneled Catheter)",AVF,38,346,0,1,1,0
+319,M,86,NA,Yes,No,No,No,No,No,Yes,No,No,No,No,582,Temporary Catheter,Temporary Catheter,397,0,185,1,0,1
+320,M,53,200,No,Yes,No,No,No,No,No,No,No,No,No,760,"Permanent (AVF, Tunneled Catheter)",AVF,257,503,0,3,1,0
+321,M,57,250,Yes,Yes,No,No,No,No,No,Yes,No,No,No,1809,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,271,0,1538,2,0,2
+322,M,44,300,Yes,Yes,No,Yes,No,No,No,No,No,No,No,1656,Temporary Catheter,Temporary Catheter,1649,7,0,3,1,0
+323,F,53,300,Yes,No,No,No,No,No,No,No,No,No,No,1484,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,115,608,761,1,1,1
+324,M,67,300,Yes,No,No,No,No,No,No,No,No,No,No,2244,"Permanent (AVF, Tunneled Catheter)",AVF,0,2244,0,0,1,0
+325,M,66,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,364,Temporary Catheter,Temporary Catheter,364,0,0,1,0,0
+326,F,59,250,Yes,No,No,Yes,No,No,No,No,No,No,No,1557,"Permanent (AVF, Tunneled Catheter)",AVF,173,1384,0,3,1,0
+327,F,21,270,Yes,No,No,No,No,No,No,No,No,No,No,1143,"Permanent (AVF, Tunneled Catheter)",AVF,0,1143,0,0,1,0
+328,F,64,180,Yes,No,No,No,No,No,No,No,No,No,No,961,"Permanent (AVF, Tunneled Catheter)",AVF,328,633,0,2,1,0
+330,M,82,NA,Yes,No,No,No,No,No,No,No,No,Yes,No,744,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,208,0,536,1,0,1
+331,M,38,300,Yes,No,No,No,No,No,No,No,No,No,No,1223,"Permanent (AVF, Tunneled Catheter)",AVF,0,1223,0,0,1,0
+332,F,71,300,Yes,Yes,No,No,No,No,No,No,No,No,No,1376,"Permanent (AVF, Tunneled Catheter)",AVF,0,1376,0,0,1,0
+333,M,45,300,No,No,No,No,No,No,No,No,No,Yes,No,1189,"Permanent (AVF, Tunneled Catheter)",AVF,0,1189,0,0,1,0
+334,F,82,NA,No,No,No,No,No,No,No,No,No,No,No,159,Temporary Catheter,Temporary Catheter,159,0,0,1,0,0
+335,F,76,NA,Yes,Yes,No,No,No,No,No,Yes,No,Yes,No,1620,"Permanent (AVF, Tunneled Catheter)",AVF,0,1620,0,0,1,0
+336,F,74,300,Yes,Yes,No,No,No,No,No,No,No,No,Yes,499,"Permanent (AVF, Tunneled Catheter)",AVF,0,499,0,0,1,0
+337,M,42,300,Yes,No,No,No,No,Yes,No,No,No,No,No,1797,Temporary Catheter,Temporary Catheter,1785,12,0,1,1,0
+338,F,59,300,Yes,No,No,No,No,Yes,No,Yes,No,No,No,1715,"Permanent (AVF, Tunneled Catheter)",AVF,21,1694,0,1,1,0
+339,F,70,NA,No,Yes,No,No,No,No,No,No,No,No,No,450,"Permanent (AVF, Tunneled Catheter)",AVF,23,427,0,1,1,0
+340,F,74,300,Yes,No,No,No,No,No,No,No,No,No,Yes,1764,"Permanent (AVF, Tunneled Catheter)",AVF,0,1764,0,0,1,0
+341,M,72,NA,Yes,No,Yes,No,Yes,No,No,No,No,No,No,1399,"Permanent (AVF, Tunneled Catheter)",AVF,226,1173,0,2,2,0
+342,F,54,NA,No,No,No,No,No,No,No,No,No,No,No,96,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,14,0,82,2,0,1
+347,F,82,250,No,Yes,No,No,No,No,No,No,No,No,No,766,Temporary Catheter,Temporary Catheter,507,259,0,2,1,0
+348,F,62,300,Yes,No,Yes,No,No,No,No,No,No,No,No,1403,Temporary Catheter,Temporary Catheter,739,664,0,1,2,0
+349,M,16,300,No,No,No,No,No,No,No,No,No,No,No,266,"Permanent (AVF, Tunneled Catheter)",AVF,70,196,0,1,1,0
+350,M,62,NA,Yes,Yes,No,Yes,No,No,No,No,No,No,No,372,Temporary Catheter,Temporary Catheter,372,0,0,1,0,0
+351,M,71,280,Yes,No,Yes,Yes,No,No,No,No,No,No,No,1446,"Permanent (AVF, Tunneled Catheter)",AVF,188,1258,0,1,1,0
+352,M,40,300,Yes,No,No,No,No,Yes,Yes,No,No,No,No,1422,Temporary Catheter,Temporary Catheter,1422,0,0,3,0,0
+353,F,77,250,Yes,No,No,No,No,Yes,No,No,No,No,No,661,Temporary Catheter,Temporary Catheter,661,0,0,2,0,0
+354,M,81,260,No,No,No,No,No,No,No,No,No,No,No,687,"Permanent (AVF, Tunneled Catheter)",AVF,19,668,0,1,1,0
+355,M,76,NA,No,No,No,No,No,No,Yes,No,No,Yes,Yes,474,Temporary Catheter,Temporary Catheter,474,0,0,2,0,0
+356,F,74,300,Yes,Yes,No,No,No,No,No,No,No,No,No,1324,Temporary Catheter,Temporary Catheter,1312,12,0,1,1,0
+357,M,42,280,Yes,No,Yes,No,No,No,No,No,No,No,No,527,"Permanent (AVF, Tunneled Catheter)",AVF,180,347,0,2,1,0
+358,M,65,270,No,Yes,No,Yes,No,No,No,No,No,No,No,389,"Permanent (AVF, Tunneled Catheter)",AVF,174,215,0,1,1,0
+359,M,79,250,Yes,Yes,No,No,No,No,Yes,Yes,No,No,Yes,1176,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,585,0,591,2,0,1
+360,M,54,300,Yes,No,No,No,No,No,Yes,No,No,No,No,1199,"Permanent (AVF, Tunneled Catheter)",AVF,23,1176,0,1,1,0
+361,M,76,250,No,Yes,Yes,No,No,No,No,No,No,No,Yes,726,"Permanent (AVF, Tunneled Catheter)",AVF,0,726,0,0,1,0
+362,F,54,300,Yes,No,No,No,No,No,No,No,No,No,No,1304,"Permanent (AVF, Tunneled Catheter)",AVF,0,1304,0,0,1,0
+363,M,84,NA,Yes,Yes,No,No,No,No,No,No,No,No,Yes,551,"Permanent (AVF, Tunneled Catheter)",AVF,152,399,0,1,1,0
+364,M,61,300,No,No,No,No,No,No,No,No,No,No,Yes,803,"Permanent (AVF, Tunneled Catheter)",AVF,0,803,0,0,1,0
+365,F,73,250,Yes,No,No,No,No,No,No,No,No,No,No,652,"Permanent (AVF, Tunneled Catheter)",AVF,77,575,0,1,1,0
+366,M,82,250,Yes,No,No,Yes,No,No,No,No,No,No,No,1022,"Permanent (AVF, Tunneled Catheter)",AVF,0,1022,0,0,1,0
+367,M,56,300,Yes,No,No,No,No,No,No,No,No,No,No,1186,"Permanent (AVF, Tunneled Catheter)",AVF,13,1173,0,1,1,0
+368,M,64,300,Yes,No,No,No,No,No,No,No,No,Yes,Yes,1440,"Permanent (AVF, Tunneled Catheter)",AVF,61,1379,0,2,2,0
+369,M,78,300,Yes,No,No,No,No,No,No,Yes,No,No,No,1384,Temporary Catheter,Temporary Catheter,1349,35,0,1,1,0
+370,M,65,200,No,Yes,No,No,No,No,Yes,No,No,No,Yes,160,Temporary Catheter,Temporary Catheter,160,0,0,1,0,0
+371,M,38,350,Yes,No,No,No,No,No,No,No,No,No,No,1250,"Permanent (AVF, Tunneled Catheter)",AVF,54,1196,0,1,1,0
+372,F,52,280,Yes,Yes,No,No,Yes,No,No,Yes,No,No,No,1400,"Permanent (AVF, Tunneled Catheter)",AVF,0,1400,0,0,1,0
+373,F,57,280,Yes,No,No,No,No,No,No,No,No,No,No,1312,"Permanent (AVF, Tunneled Catheter)",AVF,25,1287,0,1,1,0
+374,M,79,200,No,Yes,No,No,No,No,No,No,No,No,No,607,Temporary Catheter,Temporary Catheter,607,0,0,3,0,0
+375,M,75,280,No,Yes,No,No,No,No,No,No,No,Yes,No,536,"Permanent (AVF, Tunneled Catheter)",AVF,0,536,0,0,1,0
+376,M,65,300,Yes,Yes,No,Yes,No,No,No,No,No,No,No,1265,"Permanent (AVF, Tunneled Catheter)",AVF,71,1194,0,1,1,0
+377,M,85,250,No,No,No,No,No,No,No,No,No,No,No,327,Temporary Catheter,Temporary Catheter,327,0,0,1,0,0
+378,M,50,300,Yes,No,No,No,No,No,No,No,No,No,No,1021,"Permanent (AVF, Tunneled Catheter)",AVF,14,1007,0,1,1,0
+379,M,53,300,Yes,No,No,No,No,No,No,No,No,No,No,1313,"Permanent (AVF, Tunneled Catheter)",AVF,0,1313,0,0,1,0
+380,F,86,150,Yes,No,Yes,No,No,No,No,No,No,No,No,946,"Permanent (AVF, Tunneled Catheter)",AVF,219,727,0,3,1,0
+381,M,47,270,Yes,No,No,No,No,No,No,No,No,No,No,1313,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,26,0,1287,1,0,1
+382,F,62,300,Yes,No,No,No,No,No,No,No,No,No,No,1209,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,0,0,1209,0,0,2
+383,F,33,NA,No,No,No,No,No,No,No,No,No,No,No,1442,Temporary Catheter,Temporary Catheter,1442,0,0,1,0,0
+384,M,31,300,Yes,No,No,No,No,Yes,No,No,No,No,No,1371,"Permanent (AVF, Tunneled Catheter)",AVF,33,1338,0,1,1,0
+385,M,48,300,Yes,No,No,No,No,No,No,No,No,No,No,1349,"Permanent (AVF, Tunneled Catheter)",AVF,14,1335,0,1,1,0
+386,M,66,250,No,No,Yes,No,No,No,No,No,No,No,No,567,Temporary Catheter,Temporary Catheter,567,0,0,1,0,0
+387,M,60,280,No,No,No,No,No,No,No,No,No,No,No,1283,Temporary Catheter,Temporary Catheter,1283,0,0,2,0,0
+388,F,65,NA,Yes,No,Yes,No,No,No,No,Yes,No,No,Yes,570,"Permanent (AVF, Tunneled Catheter)",AVF,56,514,0,1,1,0
+389,F,51,300,Yes,No,No,No,No,No,No,No,No,No,No,1089,"Permanent (AVF, Tunneled Catheter)",AVF,0,1089,0,0,1,0
+390,M,82,250,Yes,Yes,Yes,No,No,No,No,No,Yes,No,No,467,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,32,0,435,1,0,1
+391,M,65,300,Yes,No,No,No,No,No,No,No,No,No,No,1580,"Permanent (AVF, Tunneled Catheter)",AVF,0,1580,0,0,1,0
+392,M,78,NA,No,No,No,No,No,No,No,No,No,No,No,1686,Temporary Catheter,Temporary Catheter,1686,0,0,1,0,0
+393,M,70,300,Yes,No,Yes,No,No,No,No,No,No,No,No,250,Temporary Catheter,Temporary Catheter,250,0,0,2,0,0
+394,M,51,300,Yes,Yes,No,No,No,No,Yes,No,No,No,Yes,1168,"Permanent (AVF, Tunneled Catheter)",AVF,483,685,0,2,1,0
+395,M,10,200,No,No,No,No,No,No,No,No,No,No,No,179,"Permanent (AVF, Tunneled Catheter)",AVF,0,172,7,0,1,1
+396,M,70,300,No,No,No,No,No,No,No,No,No,No,No,714,"Permanent (AVF, Tunneled Catheter)",AVF,91,623,0,1,1,0
+398,M,69,300,Yes,Yes,No,No,No,No,Yes,No,No,No,No,1120,Temporary Catheter,Temporary Catheter,888,232,0,2,1,0
+400,M,73,250,Yes,Yes,No,No,No,No,No,No,No,Yes,No,1101,"Permanent (AVF, Tunneled Catheter)",AVF,429,672,0,3,1,0
+406,M,57,280,No,No,Yes,No,No,No,No,No,No,No,No,164,"Permanent (AVF, Tunneled Catheter)",AVF,57,107,0,2,1,0
+407,M,78,300,No,Yes,No,Yes,No,No,No,No,No,No,No,745,Temporary Catheter,Temporary Catheter,402,0,343,2,0,1
+408,M,79,250,No,No,No,No,Yes,No,No,Yes,No,No,No,400,Temporary Catheter,Temporary Catheter,400,0,0,2,0,0
+409,M,66,300,No,Yes,No,No,No,No,No,No,No,No,No,999,"Permanent (AVF, Tunneled Catheter)",AVF,219,780,0,1,1,0
+410,M,57,NA,No,No,No,Yes,No,No,No,No,No,No,No,339,Temporary Catheter,Temporary Catheter,339,0,0,1,0,0
+411,M,66,NA,Yes,No,No,Yes,No,No,No,No,No,Yes,No,207,Temporary Catheter,Temporary Catheter,207,0,0,1,0,0
+412,M,54,300,Yes,Yes,No,No,Yes,No,Yes,No,No,No,No,88,Temporary Catheter,Temporary Catheter,88,0,0,3,0,0
+413,M,81,300,No,No,No,Yes,No,No,No,No,No,No,No,924,Temporary Catheter,Temporary Catheter,911,13,0,2,1,0
+414,M,63,NA,No,Yes,No,No,No,No,No,No,No,No,No,362,"Permanent (AVF, Tunneled Catheter)",AVF,34,328,0,1,1,0
+416,M,62,250,No,No,Yes,No,No,No,No,No,No,No,No,816,Temporary Catheter,Temporary Catheter,816,0,0,2,0,0
+417,M,55,250,Yes,No,Yes,No,No,No,No,No,No,No,No,365,"Permanent (AVF, Tunneled Catheter)",AVF,121,244,0,1,1,0
+418,M,53,300,Yes,Yes,No,No,No,No,No,No,No,No,No,224,"Permanent (AVF, Tunneled Catheter)",AVF,6,218,0,1,1,0
+419,F,34,300,Yes,Yes,No,No,No,No,No,No,No,No,No,1040,"Permanent (AVF, Tunneled Catheter)",AVF,0,1040,0,0,1,0
+420,F,58,300,Yes,No,No,No,Yes,No,No,Yes,No,No,No,1070,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,325,0,745,1,0,1
+421,M,60,300,Yes,Yes,No,No,No,No,No,No,No,No,No,1064,"Permanent (AVF, Tunneled Catheter)",AVF,6,1058,0,1,1,0
+422,M,68,NA,Yes,Yes,No,No,No,No,No,No,No,Yes,Yes,296,Temporary Catheter,Temporary Catheter,216,80,0,2,1,0
+423,M,60,NA,No,Yes,No,Yes,No,Yes,No,No,No,No,No,376,Temporary Catheter,Temporary Catheter,376,0,0,2,0,0
+424,M,62,300,Yes,No,No,No,No,Yes,No,No,No,No,Yes,810,Temporary Catheter,Temporary Catheter,800,10,0,1,1,0
+425,M,34,300,Yes,No,No,No,No,No,No,No,No,No,No,874,"Permanent (AVF, Tunneled Catheter)",AVF,9,865,0,1,1,0
+426,M,53,250,Yes,No,No,No,No,No,Yes,No,No,No,Yes,725,"Permanent (AVF, Tunneled Catheter)",AVF,0,725,0,0,1,0
+427,M,74,250,No,No,No,Yes,No,No,Yes,No,No,No,No,573,Temporary Catheter,Temporary Catheter,398,175,0,1,1,0
+428,M,54,250,Yes,Yes,No,No,No,No,No,No,No,No,No,923,"Permanent (AVF, Tunneled Catheter)",AVF,97,826,0,1,1,0
+429,M,60,330,Yes,Yes,No,No,No,No,No,No,No,No,No,928,"Permanent (AVF, Tunneled Catheter)",AVF,61,867,0,1,1,0
+430,M,57,250,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,No,1011,"Permanent (AVF, Tunneled Catheter)",AVF,75,936,0,3,2,0
+431,F,67,250,Yes,No,No,No,No,No,No,No,No,No,No,1021,"Permanent (AVF, Tunneled Catheter)",AVF,0,1021,0,0,1,0
+432,F,66,300,Yes,Yes,No,No,No,No,No,No,No,No,No,546,Temporary Catheter,Temporary Catheter,280,90,176,1,1,1
+433,M,78,300,No,Yes,No,No,No,No,No,No,No,No,No,984,"Permanent (AVF, Tunneled Catheter)",AVF,0,984,0,0,1,0
+434,F,60,250,Yes,No,No,No,Yes,No,No,No,No,No,No,784,Temporary Catheter,Temporary Catheter,784,0,0,1,0,0
+435,M,55,300,Yes,Yes,No,Yes,No,No,No,Yes,No,No,No,768,"Permanent (AVF, Tunneled Catheter)",AVF,0,768,0,0,1,0
+436,M,40,300,Yes,No,No,No,No,No,No,No,No,No,No,233,"Permanent (AVF, Tunneled Catheter)",AVF,102,131,0,1,1,0
+437,M,65,300,Yes,No,No,No,No,No,No,No,No,No,No,684,"Permanent (AVF, Tunneled Catheter)",AVF,258,426,0,1,1,0
+438,M,77,250,Yes,No,No,No,No,No,Yes,No,No,No,Yes,951,"Permanent (AVF, Tunneled Catheter)",AVF,0,951,0,0,1,0
+439,M,71,NA,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,182,Temporary Catheter,Temporary Catheter,182,0,0,2,0,0
+440,M,64,300,Yes,No,No,No,No,No,No,No,No,No,No,552,"Permanent (AVF, Tunneled Catheter)",AVF,0,552,0,0,1,0
+441,M,76,250,Yes,Yes,No,No,No,No,No,No,No,No,No,394,"Permanent (AVF, Tunneled Catheter)",AVF,19,375,0,1,1,0
+442,M,50,300,Yes,No,No,No,No,No,No,No,No,No,No,1227,Temporary Catheter,Temporary Catheter,761,466,0,2,1,0
+443,F,29,300,No,Yes,No,No,No,No,No,No,No,No,No,819,"Permanent (AVF, Tunneled Catheter)",AVF,0,819,0,0,1,0
+444,F,40,300,Yes,No,No,No,No,No,No,No,No,No,No,1062,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,111,219,732,1,1,1
+445,F,41,300,Yes,No,No,No,No,No,No,No,No,No,No,921,"Permanent (AVF, Tunneled Catheter)",AVF,0,921,0,0,1,0
+446,M,83,250,Yes,Yes,No,No,No,No,No,No,No,No,No,411,Temporary Catheter,Temporary Catheter,411,0,0,3,0,0
+447,M,70,250,No,No,No,No,No,Yes,Yes,Yes,No,No,No,110,Temporary Catheter,Temporary Catheter,110,0,0,1,0,0
+448,F,61,300,Yes,Yes,No,No,No,No,Yes,No,No,Yes,No,996,"Permanent (AVF, Tunneled Catheter)",AVF,55,941,0,1,1,0
+449,M,40,280,Yes,Yes,No,No,No,No,No,No,No,No,No,326,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,132,0,194,1,0,2
+450,M,58,300,Yes,Yes,No,Yes,No,No,No,No,No,No,No,840,"Permanent (AVF, Tunneled Catheter)",AVF,0,840,0,0,1,0
+451,M,75,250,No,Yes,No,Yes,Yes,No,Yes,Yes,No,No,Yes,723,Temporary Catheter,Temporary Catheter,714,9,0,3,2,0
+456,M,66,300,Yes,No,No,No,No,No,No,No,No,Yes,No,399,"Permanent (AVF, Tunneled Catheter)",AVF,32,367,0,1,1,0
+457,M,55,300,Yes,Yes,No,No,No,No,No,No,No,No,No,615,"Permanent (AVF, Tunneled Catheter)",AVF,57,558,0,1,1,0
+458,M,66,250,Yes,No,No,No,No,No,No,No,No,No,No,1230,"Permanent (AVF, Tunneled Catheter)",AVF,15,1215,0,1,2,0
+459,F,86,250,No,No,No,No,No,No,No,No,No,No,No,354,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,20,0,334,1,0,1
+460,M,79,300,Yes,No,No,No,No,No,No,No,No,No,No,362,"Permanent (AVF, Tunneled Catheter)",AVF,1,361,0,1,1,0
+461,F,71,300,Yes,No,No,No,Yes,No,No,No,No,No,No,686,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,228,0,458,2,0,1
+462,M,89,220,Yes,No,No,No,No,No,No,No,No,No,No,439,"Permanent (AVF, Tunneled Catheter)",AVF,0,439,0,0,1,0
+463,M,71,300,Yes,Yes,No,No,Yes,No,No,No,No,No,No,959,"Permanent (AVF, Tunneled Catheter)",AVF,0,959,0,0,1,0
+464,M,66,300,Yes,No,No,No,No,No,No,No,No,No,No,661,"Permanent (AVF, Tunneled Catheter)",AVF,18,643,0,1,1,0
+465,M,54,250,Yes,Yes,No,No,No,No,No,No,No,Yes,No,661,Temporary Catheter,Temporary Catheter,661,0,0,3,0,0
+466,M,61,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,803,Temporary Catheter,Temporary Catheter,462,341,0,3,2,0
+467,M,56,300,Yes,No,No,No,Yes,No,No,No,No,No,No,971,"Permanent (AVF, Tunneled Catheter)",AVF,0,971,0,0,1,0
+468,M,59,300,Yes,Yes,No,No,No,No,No,No,No,No,No,646,"Permanent (AVF, Tunneled Catheter)",AVF,237,409,0,3,1,0
+470,M,52,300,Yes,Yes,No,No,No,No,No,No,No,No,No,420,"Permanent (AVF, Tunneled Catheter)",AVF,64,356,0,1,1,0
+471,M,51,300,Yes,No,No,No,No,No,No,No,No,No,No,840,"Permanent (AVF, Tunneled Catheter)",AVF,16,824,0,1,1,0
+472,M,43,250,No,No,No,No,No,No,No,No,No,No,No,613,"Permanent (AVF, Tunneled Catheter)",AVF,78,535,0,1,1,0
+473,F,52,300,Yes,No,No,No,No,No,No,No,No,No,No,613,"Permanent (AVF, Tunneled Catheter)",AVF,0,613,0,0,1,0
+474,M,46,300,Yes,No,No,No,No,No,No,No,No,No,No,420,"Permanent (AVF, Tunneled Catheter)",AVF,0,420,0,0,1,0
+475,M,63,NA,No,Yes,No,No,No,No,No,No,No,No,Yes,965,"Permanent (AVF, Tunneled Catheter)",AVF,33,932,0,2,1,0
+476,M,53,300,No,Yes,No,No,No,No,Yes,No,Yes,No,No,524,Temporary Catheter,Temporary Catheter,449,75,0,2,1,0
+477,M,66,250,Yes,No,No,No,No,No,No,No,No,No,No,563,Temporary Catheter,Temporary Catheter,379,184,0,3,1,0
+478,M,78,250,Yes,Yes,No,No,No,No,No,No,No,No,No,474,"Permanent (AVF, Tunneled Catheter)",AVF,147,327,0,2,1,0
+479,F,85,250,No,Yes,No,No,No,No,Yes,No,No,Yes,No,574,Temporary Catheter,Temporary Catheter,574,0,0,2,0,0
+480,M,23,270,Yes,No,No,No,No,No,No,No,No,No,No,1536,Temporary Catheter,Temporary Catheter,1531,5,0,3,1,0
+481,M,76,250,No,No,No,No,No,No,No,No,No,No,No,592,"Permanent (AVF, Tunneled Catheter)",AVF,110,482,0,1,2,0
+482,M,71,300,Yes,Yes,No,No,No,No,No,No,No,No,No,646,Temporary Catheter,Temporary Catheter,556,0,90,2,0,2
+483,M,90,250,Yes,No,No,No,No,No,No,Yes,No,No,No,991,Temporary Catheter,Temporary Catheter,991,0,0,3,0,0
+484,F,77,250,Yes,No,No,No,Yes,No,No,No,No,No,No,284,Temporary Catheter,Temporary Catheter,231,53,0,2,1,0
+485,M,63,300,Yes,Yes,Yes,No,No,No,No,No,No,No,No,539,"Permanent (AVF, Tunneled Catheter)",Tunneled Catheter,121,0,418,2,0,1
+486,M,80,300,Yes,Yes,Yes,No,No,No,No,No,No,No,No,365,"Permanent (AVF, Tunneled Catheter)",AVF,37,328,0,2,1,0
+487,M,53,300,Yes,Yes,No,Yes,No,No,No,No,No,No,No,357,"Permanent (AVF, Tunneled Catheter)",AVF,73,284,0,2,1,0
+488,F,60,250,Yes,Yes,No,No,No,No,Yes,No,No,Yes,No,496,Temporary Catheter,Temporary Catheter,496,0,0,3,0,0
+489,M,71,300,Yes,No,No,No,No,No,No,No,No,No,No,707,Temporary Catheter,Temporary Catheter,466,241,0,2,2,0
+490,M,46,300,Yes,Yes,No,No,No,No,No,No,No,No,No,538,Temporary Catheter,Temporary Catheter,527,11,0,2,1,0
+491,M,83,250,Yes,Yes,No,No,No,No,No,No,No,No,No,683,"Permanent (AVF, Tunneled Catheter)",AVF,13,670,0,1,1,0
+492,F,77,250,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,No,832,Temporary Catheter,Temporary Catheter,832,0,0,2,0,0
+493,M,60,300,Yes,Yes,No,No,No,No,No,No,No,No,No,997,"Permanent (AVF, Tunneled Catheter)",AVF,29,968,0,2,1,0
+494,F,78,250,Yes,Yes,No,No,No,No,No,No,No,No,No,574,Temporary Catheter,Temporary Catheter,574,0,0,2,0,0
+495,F,66,NA,Yes,Yes,No,No,No,No,No,No,No,No,No,139,Temporary Catheter,Temporary Catheter,111,0,28,3,0,1
+496,F,66,250,Yes,Yes,No,No,No,No,No,Yes,No,No,Yes,349,"Permanent (AVF, Tunneled Catheter)",AVF,68,281,0,2,1,0
+497,F,67,250,Yes,Yes,No,No,No,No,No,No,No,Yes,No,426,Temporary Catheter,Temporary Catheter,426,0,0,2,0,0

@@ -1,0 +1,280 @@
+---
+title: "Data Mining (VAD)"
+author: "Adnan Bahtic"
+---
+
+```{r}
+
+rm(list=ls())
+
+library(party)
+library(fpc)
+library(ggplot2)
+library(gridExtra)
+library(dplyr)
+library(cowplot)
+library(ggpubr)
+library(VIM)
+library(psych)
+library(corrplot)
+
+```
+
+1. Data
+
+```{r}
+
+#Reading and creating data set from our computer.
+setwd("C:\\Users\\mladi\\Desktop\\Data Mininig")
+Vad = read.csv("VascularAccessData.csv")
+```
+
+2. Data understanding
+
+```{r}
+str(Vad)
+#Using str() I analyze the basic structure od data.The data consists of 24 variables and 391 observations.
+#Gender variable is a factor with 2 levels  male and female,11 diseases or problem that patiena have also have 2 levels, No and Yes and followd with Type of Vascular access to patients. And other which are not mention are Integers.
+```
+
+
+3. Analyzing the missing value distribution in the dataset
+
+
+```{r}
+
+#Using table to count total number of missing values in date i.e. 313
+table(is.na(Vad))
+
+sapply(Vad,function(x) sum(is.na(x)))# Number of NA values with respect to each feature
+
+
+#The missing fata graph shows the distribution of missing values in each variable
+aggr(Vad, col=c('navyblue','yellow'), numbers=TRUE, sortVars=TRUE, 
+                    labels=names(Vad), gap=3, cex.axis=.5,cex.numbers=0.6,
+                    ylab=c("Histogram of missing data","Pattern"))
+
+
+```
+
+
+4 Data Preparation
+```{r}
+
+
+#Removing 41 patient from current dataset
+Vad<-Vad[!is.na(Vad$HOPB),]
+
+
+#Converting integer to the double class
+Vad$AverageBloodFlow<-as.double(Vad$AverageBloodFlow) 
+
+
+#Creating new variable, where the avg of Blood Flow is added to the NA values.
+Vad <- Vad%>%
+  dplyr::mutate(Bloodflow = if_else(
+    is.na(AverageBloodFlow)
+    , mean(AverageBloodFlow, na.rm = TRUE)
+    , AverageBloodFlow
+  )
+  )
+
+#deleting the column
+Vad<-Vad[-c(4)]
+
+table(is.na(Vad))
+
+Vad
+
+```
+
+
+
+
+5. Data exploration
+
+```{r}
+#Ploting the pie chart of genders
+ggplot(Vad, aes(x="", y="", fill=Gender)) +
+  geom_bar(stat="identity", width=1, color="white") +
+  coord_polar("y", start=0) + theme_void()+ggtitle("Pie Chart of Genders")
+
+
+ggplot(data = Vad) + 
+  geom_bar(mapping = aes(x = AchievedParticular_VA, fill = Gender), position = "dodge")+
+  scale_y_continuous(name = "Number Of patient")+ xlab("Type of vascular access that patient recived")+ggtitle("Histogram of Genders")
+
+#From both of this plot we can see that larger number of male patient are in this data.
+#To be precise  in this data set number of male are 229(or 65%) and female 121(35%)
+
+#with this we know that we have three different type of VA and You can see number of patient in particular group and percentage
+
+table(Vad$Gender)
+prop.table(table(Vad$Gender))
+
+table(Vad$Gender, Vad$AchievedParticular_VA)
+prop.table(table(Vad$Gender, Vad$AchievedParticular_VA))
+
+
+```
+
+```{r}
+#Scatterplot of age and time on study by different type of groups.
+
+ggplot(Vad, aes(x=Age_years, y=timeOnStudy, color=AchievedParticular_VA)) +
+  labs(color = "Three types of access:")+
+  scale_x_continuous(name = "Age",
+                     limits = c(20, 90),
+                     breaks = seq(20, 90, by = 5))+
+  scale_y_continuous(name = "Time on Study",
+                     limits = c(0, 4000),
+                     breaks = seq(0, 4000, by = 250))+
+  geom_point(size=2)+theme_minimal()+geom_smooth(method="lm",se=F)
+
+
+ggplot(Vad, aes(x=Bloodflow, y=Age_years, color=AchievedParticular_VA)) +
+  labs(color = "Three types of access:")+
+  scale_y_continuous(name = "Age",
+                     limits = c(20, 90),
+                     breaks = seq(20, 90, by = 5))+
+  scale_x_continuous(name = "Bloodflow")+
+  geom_point(size=2)+theme_minimal()+geom_smooth(method="lm",se=F)
+
+```
+
+
+
+
+```{r}
+
+#Density plot for three main atributes in  this data with respect to feature Datase
+
+ggplot(Vad, aes(x=timeOnStudy, color=AchievedParticular_VA)) +
+  geom_density()+ geom_vline(aes(xintercept=mean(timeOnStudy)),color="blue", linetype="dashed", size=1)
+
+ggplot(Vad, aes(x=Age_years, color=AchievedParticular_VA)) +
+  geom_density()+ geom_vline(aes(xintercept=mean(Age_years)),color="blue", linetype="dashed", size=1)
+
+
+ggplot(Vad, aes(x=Bloodflow, color=AchievedParticular_VA)) +
+  geom_density()+ geom_vline(aes(xintercept=mean(Bloodflow)),color="blue", linetype="dashed", size=1)
+
+
+```
+
+```{r}
+
+
+
+compare_means(timeOnStudy ~ AchievedParticular_VA,  data = Vad, ref.group = ".all.",
+              method = "t.test")
+
+ggboxplot(Vad, x = "AchievedParticular_VA", y = "timeOnStudy",
+          color="AchievedParticular_VA",palette = "jco",
+          add = "jitter")+ stat_compare_means(method = "t.test")      
+
+
+ggboxplot(Vad, x = "AchievedParticular_VA", y = "timeOnStudy",
+          color = "AchievedParticular_VA", palette = "jco")+ 
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = ".all.",label.y = 40) 
+
+```
+
+
+
+```{r}
+
+#Doing the t-test for BloodFlow
+
+compare_means(Bloodflow ~ AchievedParticular_VA,  data = Vad, ref.group = ".all.",
+              method = "t.test")
+
+ggboxplot(Vad, x = "AchievedParticular_VA", y = "Bloodflow",
+          color="AchievedParticular_VA",palette = "jco",
+          add = "jitter")+ stat_compare_means(method = "t.test")      
+
+
+ggboxplot(Vad, x = "AchievedParticular_VA", y = "Bloodflow",
+          color = "AchievedParticular_VA", palette = "jco")+ 
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = ".all.",label.y = 40) 
+```
+
+```{r}
+
+compare_means(Age_years ~ AchievedParticular_VA,  data = Vad, ref.group = ".all.",
+              method = "t.test")
+
+ggboxplot(Vad, x = "AchievedParticular_VA", y = "Age_years",
+          color="AchievedParticular_VA",palette = "jco",
+          add = "jitter")+ stat_compare_means(method = "t.test")      
+
+
+ggboxplot(Vad, x = "AchievedParticular_VA", y = "Age_years",
+          color = "AchievedParticular_VA", palette = "jco")+ 
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = ".all.",label.y = 40) 
+```
+
+6. Correlation and colinearity analysis
+
+```{r}
+#psych package is used to understand correlation between different variables.
+pairs.panels(Vad [c(24,15,3)])
+
+my_cols <- c("#00AFBB", "#E7B800", "#FC4E07") 
+pairs(Vad [c(24,15,3)], pch = 19,  cex = 1,
+      col = my_cols[Vad$AchievedParticular_VA],
+      lower.panel=NULL)
+
+Corr<-Vad[c(24,15,3,18,19,20)]
+corrplot(corrgram(Corr), method = "square")
+
+```
+ 7 . Data Clustering
+ 
+```{r}
+set.seed(7000)
+Vad2<-Vad[c(24,15,3,17)]
+Vad3<-Vad[c(24,15,3)]
+
+kmeans.result <-kmeans(Vad3,3)
+kmeans.result
+
+table(Vad2$AchievedParticular_VA,kmeans.result$cluster)
+
+plot(Vad3, col = kmeans.result$cluster)
+points(kmeans.result$centers,
+       col = 1:3, pch = 8, cex=2)
+```
+  8. Decision Tree
+  
+```{r}
+
+Vad_Ctree <- ctree(AchievedParticular_VA ~ Age_years +
+                      Bloodflow + timeOnStudy, data=Vad)
+
+print(Vad_Ctree)
+
+plot(Vad_Ctree)
+```
+  
+  
+  9. Linear Regression Model 
+```{r}
+# Linear regression model
+model1 <- lm(Age_years~Bloodflow + timeOnStudy +AchievedParticular_VA, data = Vad)
+summary(model1)
+confint(model1)
+plot(model1)
+```
+   
+  
+```{r}
+model2 <- lm(Age_years~., data = Vad)
+summary(model2)
+confint(model2)
+plot(model2)
+```
+
